@@ -10,14 +10,12 @@ int main() {
     q.push(11);
     q.push(13);
     q.push(15);
-    cout << "front of q is:" << q.front() << endl;
 
+    cout << "front of q is: " << q.front() << endl;
     cout << "size of queue: " << q.size() <<endl;
     q.pop();
     cout << "size of queue: " << q.size() <<endl;
-    cout << "front of q is:" << q.front() << endl;
-    cout << "rear of q is:" << q.rear() << endl;
-
+    cout << "front of q is: " << q.front() << endl;
 
     if(q.empty()) {
         cout << "queue is empty" << endl;
@@ -27,3 +25,6 @@ int main() {
     }
     return 0;
 }
+
+
+
